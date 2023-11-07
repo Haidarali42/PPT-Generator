@@ -1,0 +1,127 @@
+
+/* .tag{
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+} */
+.grid-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:fit-content !important;
+    /* padding:'10px 20px 25px 2px'; */
+    border-radius: 10px;
+    /* border: 1px solid rgb(95, 94, 94); */
+    padding: 10px 20px 25px 20px;
+    justify-content: space-between;
+    
+
+}
+.centeredContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.card-theme{
+    width: 10px;
+    height: 250px;
+    border: none;
+    /* box-shadow: 5px 2px 60px 1px rgb(198, 196, 196); */
+    border-radius: 20px !important;
+    text-align: center;
+    margin: auto;
+    background-color: white !important;
+}
+.card-theme{
+    cursor: pointer;
+}
+.card-theme-doc{
+    width: 10px;
+    height: 250px;
+    border: none;
+    /* box-shadow: 5px 2px 60px 1px rgb(198, 196, 196); */
+    border-radius: 20px !important;
+    text-align: center;
+    margin: auto;
+    background-color:rgb(222, 193, 209) !important;
+}
+.item{
+    padding-right: 20px;
+}
+.imgcard1{
+    height: 185px;
+    text-align: center;
+    padding: 0;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+}
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.button1{
+    width: 100%;
+    background-color:#b466c1 !important;
+    font-family: 16px inter, sans-serif;
+    font-weight: 900 !important;
+    vertical-align: middle;
+}
+.button2{
+    width: 100%;
+    background-color:#f1cba5 !important;
+    font-family: 16px inter, sans-serif;
+    font-weight: 900 !important;
+    vertical-align: middle;
+}
+.css-46bh2p-MuiCardContent-root {
+ padding: 5px !important;
+}
+.bodytag{
+    text-align: start;
+}
+.cardTitle{
+    text-align: start;
+    font-weight: 600;
+    color: rgb(241, 62, 62);
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.sub-contain4{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url('https://cdn.gamma.app/cdn-cgi/image/quality=80,fit=scale-down,onerror=redirect,width=250,height=250/https://cdn.gamma.app/theme_images/atmosphere-background.a041341a.png?w=2666&q=70');
+    background-size: cover;
+    border-radius: 15px;
+    
+}
+.sub-contain3{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(168, 175, 204);
+    
+    
+    background-size: cover;
+    border-radius: 15px;
+}
+.sub-contain16{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url('https://cdn.gamma.app/cdn-cgi/image/quality=80,fit=scale-down,onerror=redirect,width=250,height=250/https://cdn-staging.gamma.app/QWjS6fBfpt/7c4bcd24cd8940788fd9fb155d789d7f/original/mesh-noise-gradient.png');
+    background-size: cover;
+    border-radius: 15px;
+}
+.css-o69gx8-MuiCardMedia-root{
+    object-fit: cover
+}

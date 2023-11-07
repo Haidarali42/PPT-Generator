@@ -1,0 +1,56 @@
+/* .cardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 10px;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .card-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.ppt-title{
+    padding-left: 10px;
+}
+.ppt-containt{
+    padding-left: 10px;
+}
+.download{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: white;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.pdficon{
+    color: rgb(245, 9, 9);
+    font-size: 30px !important;
+    background-color: pink;
+    padding: 5px 5px 5px 5px;
+}
+.downloadicon{
+    color: black;
+    font-size: 30px !important;
+}
+.pdfexp{
+    color: black;
+    font-weight: 400;
+    font-size: larger;
+    margin-top: 0;
+    margin-bottom: 0;
+}

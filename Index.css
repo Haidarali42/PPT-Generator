@@ -1,0 +1,39 @@
+body{
+    background-color: rgba(248,222,216);
+    background-image: url('D:\ReapMind Assignment\MaterialUI\project\src\component\images\blobanimation.svg');
+    
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    flex-direction: column;
+    height: 100vh;
+}
+.home{
+    border-radius: 20px !important;
+    margin-top: 20px !important;
+    background-color: white !important;
+    color: black !important;
+}
+.tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    border: 1px solid lightgray;
+    font-size: medium;
+    font-weight: 500;
+    color: #3c3838;
+    background-color: rgb(233, 230, 230);
+    padding: 5px 5px 5px 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgrey;
+}

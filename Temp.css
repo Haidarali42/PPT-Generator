@@ -1,0 +1,28 @@
+/* .cardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .card-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.ppt-title{
+    padding-left: 10px;
+}
+.ppt-containt{
+    padding-left: 10px;
+}

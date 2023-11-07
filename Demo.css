@@ -1,0 +1,48 @@
+.centered-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;    
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+    margin-top: 5%;
+    width: fit-content; 
+    border-radius: 20px !important;
+}
+
+.gammacard{
+    width: 100%;
+    height: auto;
+    border: none;
+    border-radius: 20px !important;
+    text-align: center;
+    margin: auto;
+    background-color: #CCA5DA !important;
+}
+
+.imgcard1{
+    
+    text-align: center;
+    padding: 0;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+}
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.button1{
+    width: 100%;
+    background-color:#b466c1 !important;
+    font-family: 16px inter, sans-serif;
+    font-weight: 900 !important;
+    vertical-align: middle;
+}
+.css-46bh2p-MuiCardContent-root {
+ padding: 5px !important;
+}
